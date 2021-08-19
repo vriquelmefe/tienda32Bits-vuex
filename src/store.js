@@ -110,9 +110,9 @@ const store = new Vuex.Store({
           commit("SET_TOTAL_VENTA", juego)  
           alert(`Juego ${ juego.nombre} - Venta procesada con exito`);
 
-        },2000)
+        },1000)
         
-      },1000)
+      },2000)
     },
   }
 });
